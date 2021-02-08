@@ -13,6 +13,9 @@ public class TodoController {
 		public String toShower() {
 			return "No course for you";
 		}
-	
+	@GetMapping("/MoreCourses") 
+	public String toShow() {
+		return "More course for you";
+	}
 
 }
